@@ -18,8 +18,9 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #3D9;
+  background-color: #eaeaea;
   color: var(--dark-text-color);
+  position: relative;
 }
 
 
@@ -42,9 +43,14 @@ h1, h2, h3, h4, h5{
   color: var(--dark-text-color) !important;
 }
 
+.select{
+  font-size: .7rem;
+}
+
 .board{
   background-color: #fdfdfd;
   padding: 2rem 4rem;
+  margin-top: 2rem;
 }
 
 code {

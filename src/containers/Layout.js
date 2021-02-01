@@ -1,15 +1,14 @@
-import { Row, Col, Typography, Space } from "antd";
+import { Row, Col } from "antd";
 import Header from '../components/Header'
-
-const { Title } = Typography;
+import ProfileLoader from '../components/ProfileLoader'
 
 const Layout = () => {
     return (
         <>
             <Header/>
             <Row justify="center">
-                <Col span={{ xs: 22, sm: 20, md: 18, lg: 14}} className="bg-light board">
-
+                <Col xs={{ span: 23 }} md={{ span: 20 }} className="bg-light board">
+                    <ProfileLoader/>
                 </Col>
             </Row>
         </>
