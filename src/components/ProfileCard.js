@@ -23,7 +23,7 @@ const ProfileCard = ({ profile }) => {
             title={profile.CreditCardNumber}
             extra={profile.CreditCardType}
             >
-                <p>Payment details: {profile.PaymentMethod}</p>
+                <p>Payment method: {profile.PaymentMethod}</p>
             </Card>
         </Card>
     )
